@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - AsyncDisplayKit (1.9.80):
+    - AsyncDisplayKit/PINRemoteImage (= 1.9.80)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.80)
+  - AsyncDisplayKit/Core (1.9.80):
+    - AsyncDisplayKit/ASDealloc2MainObject
+  - AsyncDisplayKit/PINRemoteImage (1.9.80):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (>= 3.0.0-beta.2)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - PINCache (2.2.2)
+  - PINRemoteImage/Core (3.0.0-beta.2):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/iOS (3.0.0-beta.2):
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - Alamofire (= 3.4)
+  - AlamofireImage (= 2.4)
+  - AsyncDisplayKit
+  - GoogleMaps
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  AsyncDisplayKit: ab57b10cd058797015c77be10407f3dc13027c85
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
+  PINRemoteImage: 197554c5ba57a6ae90f5db441651180039fc9062
+
+PODFILE CHECKSUM: b0920a268defedb6e93e85dff4a1a835aecd954e
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module Pods_ASDK_test {
+  umbrella header "Pods-ASDK.test-umbrella.h"
+
+  export *
+  module * { export * }
+}
