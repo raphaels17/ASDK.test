@@ -112,7 +112,7 @@ extension PokemonCollectionCellNode: ASNetworkImageNodeDelegate {
 
 class StreetViewNode: ASDisplayNode,GMSPanoramaViewDelegate  {
     var StreetView: GMSPanoramaView
-    // we assume the pokemon has a location for the last place it has been seen
+    // we assume the pokemon has a location for the last place it has been seen 
     var pokemon:Pokemon?
     
     init(pokemon: Pokemon) {
